@@ -28,12 +28,12 @@ export function CtaFinal() {
             Conoce cómo Baula IMS puede ayudar a tu empresa.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <a href="mailto:hola@baulatek.com?subject=Solicitud%20de%20demostraci%C3%B3n%20Baula%20IMS">
+            <a href="mailto:info@baulatek.com?subject=Solicitud%20de%20demostraci%C3%B3n%20Baula%20IMS">
               <Button size="lg">
                 Solicitar demostración <ArrowRight className="h-4 w-4" />
               </Button>
             </a>
-            <a href="mailto:hola@baulatek.com">
+            <a href="mailto:info@baulatek.com">
               <Button size="lg" variant="ghostLight">
                 <Mail className="h-4 w-4" /> Contactar
               </Button>
