@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 205 72% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 205 72% 10%;
+    --muted: 172 48% 96%;
+    --muted-foreground: 199 30% 36%;
+    --border: 187 35% 88%;
+  }
+
+  .dark {
+    --background: 205 72% 8%;
+    --foreground: 172 60% 95%;
+    --card: 202 66% 12%;
+    --card-foreground: 172 60% 95%;
+    --muted: 202 60% 14%;
+    --muted-foreground: 187 30% 70%;
+    --border: 199 45% 20%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01" on;
+  }
+
+  ::selection {
+    background: #1fc7d4;
+    color: #071b2b;
+  }
+
+  :focus-visible {
+    outline: 2px solid #1fc7d4;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Dotted migration route used by the Historia timeline and the roadmap */
+  .route-line {
+    background-image: linear-gradient(
+      to bottom,
+      #1fc7d4 0 6px,
+      transparent 6px 14px
+    );
+    background-size: 2px 14px;
+    background-repeat: repeat-y;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
