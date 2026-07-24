@@ -10,7 +10,7 @@ const links = [
 ];
 
 const social = [
-  { href: "https://www.instagram.com", label: "Instagram", icon: Instagram },
+  { href: "https://www.instagram.com/baulatek?igsh=b2c5NXFjY283OXhu&utm_source=qr", label: "Instagram", icon: Instagram },
 ];
 
 export function Footer() {
