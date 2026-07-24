@@ -93,7 +93,7 @@ export function Soluciones() {
                   visitantes en clientes.
                 </p>
               </div>
-              <a href="mailto:info@baulatek.com?subject=Solicitud%20de%20cotizaci%C3%B3n%20%E2%80%94%20Baula%20Sites">
+              <a href="mailto:contacto@baulatek.com?subject=Solicitud%20de%20cotizaci%C3%B3n%20%E2%80%94%20Baula%20Sites">
                 <Button size="lg">
                   Solicitar Cotización <ArrowRight className="h-4 w-4" />
                 </Button>
