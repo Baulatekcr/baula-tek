@@ -57,9 +57,9 @@ export function Hero() {
             {...fade(0.2)}
             className="mt-6 max-w-xl text-lg leading-relaxed text-foam/70"
           >
-            Desarrollamos soluciones digitales para optimizar operaciones,
-            automatizar procesos y ayudar a las empresas a tomar mejores
-            decisiones.
+            Desarrollamos software empresarial, sistemas de gestión y
+            experiencias web que ayudan a las organizaciones a crecer mediante
+            tecnología.
           </motion.p>
 
           <motion.div {...fade(0.3)} className="mt-9 flex flex-wrap gap-4">

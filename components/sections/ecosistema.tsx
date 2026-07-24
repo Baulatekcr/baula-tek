@@ -21,7 +21,7 @@ const etapas = [
     tono: "bg-kelp/15 text-kelp border-kelp/30",
     icon: Globe,
     nombre: "Baula Sites",
-    desc: "Creación de landing pages profesionales para tu negocio.",
+    desc: "Diseño y desarrollo de landing pages y sitios web profesionales.",
     activo: true,
   },
   {
