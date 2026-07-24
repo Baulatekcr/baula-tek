@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Instagram, Linkedin } from "lucide-react";
+import { Instagram } from "lucide-react";
 import { TurtleMark, Wordmark } from "@/components/logo";
 
 const links = [
@@ -10,9 +10,7 @@ const links = [
 ];
 
 const social = [
-  { href: "https://www.linkedin.com", label: "LinkedIn", icon: Linkedin },
   { href: "https://www.instagram.com", label: "Instagram", icon: Instagram },
-  { href: "https://github.com", label: "GitHub", icon: Github },
 ];
 
 export function Footer() {
@@ -28,6 +26,12 @@ export function Footer() {
             <p className="mt-3 text-sm text-foam/60">
               Tecnología que transforma procesos.
             </p>
+            <a
+              href="mailto:info@baulatek.com"
+              className="mt-2 inline-block text-sm text-foam/70 transition-colors hover:text-cta"
+            >
+              info@baulatek.com
+            </a>
           </div>
 
           <nav aria-label="Enlaces del sitio">
