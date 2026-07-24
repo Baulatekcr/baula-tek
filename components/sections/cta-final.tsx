@@ -33,7 +33,7 @@ export function CtaFinal() {
                 Solicitar demostración <ArrowRight className="h-4 w-4" />
               </Button>
             </a>
-            <a href="mailto:info@baulatek.com">
+            <a href="mailto:contacto@baulatek.com">
               <Button size="lg" variant="ghostLight">
                 <Mail className="h-4 w-4" /> Contactar
               </Button>
